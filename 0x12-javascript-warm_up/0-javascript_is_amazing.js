@@ -1,10 +1,8 @@
 #!/usr/bin/node
 
 /**
- * create a constant variable called myVar with the value “JavaScript is amazing”
- * use console.log(...) to print all output
+ * myVar - the variable to store "Javascript is amazing"
+ * console.log - for printing
  */
 
-const myVar = 'Javascript is amazing';
-
-console.log(myVar);
+console.log(const myVar="Javascript is amazing");
