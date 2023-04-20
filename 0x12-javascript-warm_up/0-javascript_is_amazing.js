@@ -1,8 +1,8 @@
 #!/usr/bin/node
 
 /**
- * myVar - the variable to store "Javascript is amazing"
- * console.log - for printing
+ * A script that prints “JavaScript is amazing”
  */
 
-console.log(const myVar="Javascript is amazing");
+const myVar = 'JavaScript is amazing';
+console.log(myVar);
