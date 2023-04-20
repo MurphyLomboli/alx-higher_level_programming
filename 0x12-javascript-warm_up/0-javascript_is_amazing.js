@@ -6,5 +6,4 @@
 */
 
 const myVar = "Javascript is amazing";
-
-document.write(myVar);
+Console.log(myVar);
