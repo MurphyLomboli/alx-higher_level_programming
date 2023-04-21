@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
-/*
+/**
  * myVar - the constant stored variable
  */
 
-const myVar = 'Javascript is cool';
+const myVar = 'JavaScript is amazing';
 
 console.log(myVar);
