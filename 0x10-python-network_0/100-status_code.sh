@@ -1,3 +1,3 @@
 #!/bin/bash
-# Sends a request to a URL and displays only the HTTP status code
-curl -sIS "$1" | grep -oP "^HTTP\/\d\.\d \K\d+"
+# Send GET request and display status code of response
+curl -so /dev/null -w '%{http_code}' "$1"
